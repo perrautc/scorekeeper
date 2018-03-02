@@ -1,0 +1,11 @@
+{
+  "name": "scorekeeper",
+  "version": "1.0.0",
+  "description": "score keeper written in elm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "elm-live Main.elm --output=bundle.js --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
