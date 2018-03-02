@@ -1,5 +1,7 @@
 # Planning Basketball Scorekeeper App
 ![Score Keeper](Scorekeeper.png)
+
+Try Demo [Score Keeper](https://perrautc.github.io/scorekeeper/)
 ## Model
 
 TODO: Model's Shape
