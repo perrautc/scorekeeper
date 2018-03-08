@@ -8377,7 +8377,7 @@ var _user$project$Main$deletePlay = F2(
 			function (player) {
 				return _elm_lang$core$Native_Utils.eq(player.id, play.playerId) ? _elm_lang$core$Native_Utils.update(
 					player,
-					{points: player.points - (1 * player.points)}) : player;
+					{points: player.points - play.points}) : player;
 			},
 			model.players);
 		var newPlays = A2(
@@ -8475,7 +8475,7 @@ var _user$project$Main$update = F2(
 			case 'Score':
 				return A3(_user$project$Main$score, model, _p1._0, _p1._1);
 			default:
-				return A4(_elm_lang$core$Debug$log, 'Deleting Play', _user$project$Main$deletePlay, model, _p1._0);
+				return A2(_user$project$Main$deletePlay, model, _p1._0);
 		}
 	});
 var _user$project$Main$DeletePlay = function (a) {

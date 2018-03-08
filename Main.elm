@@ -74,10 +74,7 @@ update msg model =
             score model player points
 
         DeletePlay play ->
-            Debug.log "Deleting Play"
-                deletePlay
-                model
-                play
+            deletePlay model play
 
 
 deletePlay model play =
@@ -89,7 +86,7 @@ deletePlay model play =
             List.map
                 (\player ->
                     if player.id == play.playerId then
-                        { player | points = player.points - 1 * player.points }
+                        { player | points = player.points - play.points }
                     else
                         player
                 )
