@@ -5531,7 +5531,7 @@ ul>li>div {
 
 ul>li>div:nth-child(2) {
     flex-grow: 1;
-    min-width: 340px;
+    min-width: 180px;
     max-width: 600px;
     flex-basis: auto
 }
